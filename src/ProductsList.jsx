@@ -9,7 +9,7 @@ export const ProductsList = () => {
     <>
       <ul className="productslist">
         {products.map(({ id, name }) => (
-          <li>
+          <li key={id}>
             {id} <span>- </span>
             {name}
           </li>
