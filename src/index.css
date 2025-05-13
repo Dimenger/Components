@@ -35,6 +35,12 @@ h1 {
   line-height: 1.1;
 }
 
+.productslist {
+  font-size: 2.2em;
+  line-height: 1.1;
+  font-style: italic;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

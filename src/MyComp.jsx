@@ -40,8 +40,7 @@ export const MyComponent = () => {
     };
   }, []);
 
-  // Получаем текущую дату с заглавной буквы
-  // Мемоизация обработки даты
+  /* Получаем текущую дату с заглавной буквы. Мемоизация обработки даты */
   const formattedDate = formatter.format(currentTime);
   const firstLetterCapitalized = useMemo(
     () => `${formattedDate.charAt(0).toUpperCase()}${formattedDate.slice(1)}`,
